@@ -1,23 +1,27 @@
 <html>
 <head>
- <link rel="stylesheet"  type="txt/css" href="css/main.css" >
+ <link rel="stylesheet"  type="text/css" href="css/main.css" >
 
 </head>
 
 
 <?php
-title = "job seeker";
+include_once("application/config.php");
 
 ?>
 
 <body>
 
+<h1><?php echo $title; ?></h1>
+
+
 <ul>
-    <li>Lorem ipsum dolor sit amet.</li>
-    <li>Non eveniet hic architecto quasi!</li>
-    <li>Porro doloremque ex, necessitatibus nesciunt.</li>
-    <li>Sequi sapiente molestiae a dolorum!</li>
-    <li>Nisi dignissimos porro culpa, enim.</li>
+  <?php
+    foreach($jobs as $job) {  
+     echo   "<li>".$job."</li>";
+	 }
+	?>
+    
 </ul>
 </body>
 
