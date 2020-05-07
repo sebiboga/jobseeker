@@ -1,6 +1,6 @@
 <?php 
 
- $title = "shaqo doon";
+ $title = "job seeker";
  
  $jobs =  array();
  $jobs[1] = "Software tester la NTT Data";
