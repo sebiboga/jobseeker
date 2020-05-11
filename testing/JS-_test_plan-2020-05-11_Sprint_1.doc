@@ -1,0 +1,266 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><title>testplan Test Plan - Sprint 1</title>
+<link type="text/css" rel="stylesheet" href="http://13.90.37.50/testlink/gui/themes/default/css/tl_documents.css" />
+<style type="text/css" media="print">.notprintable { display:none;}</style>
+</head>
+<body>
+<div>
+<div style="float:right;">TestLink Community [configure $tlCfg-&gt;document_generator-&gt;company_name]</div>
+<div>&nbsp;</div><hr />
+<p style="text-align: center;"><img alt="TestLink logo" title="configure using $tlCfg->document_generator->company_logo"  width=231 height=56 src="http://13.90.37.50/testlink/gui/themes/default/images/tl-logo-transparent-25.png" /></p></div>
+<div class="doc_title"><p>Test Plan Design Report</p></div>
+<div class="doc_title" style="text-align:left;margin: auto;"><p>Test Project: job seeker<br/>Test Plan: Test Plan - Sprint 1</p></div>
+<div class="summary"><p id="printedby">Printed by TestLink on 05/11/2020</p></div>
+<div class="pagefooter" id="copyright">2012 &copy; TestLink Community</div>
+<h1 class="doclevel" >Test Project: job seeker</h1>
+<div class="txtlevel"><p>job seeker</p></div>
+ <br/><h1 class='doclevel'>Test Suite : TestAnalysis (requirement 1)</h1>
+<p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case jJS--12: show OPEN POSITION&nbsp;<span style="font-size: 80%;">[Version : 1]</span></th></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>I expect to have a TEST CASE that validate that we have ONLY OPEN POSITIONS and not CLOSED positions&nbsp;</p>
+
+<p>What an OPEN POSITION means?</p>
+
+<p>OPEN POSITION means that I still can SEND MY CV; they didn&#39;t close the window for receiving the CVs</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>Open the app</p>
+</td><td><p>The app opens and displays all the positions for Junior Software Testers in Romania</p>
+</td></tr><tr><td width="5">2</td><td><p>click on the job item</p>
+</td><td><p>you are redirected to the job description page</p>
+</td></tr><tr><td width="5">3</td><td><p>verify that application date is not past due</p>
+</td><td><p>the expiration date is in the future</p>
+</td></tr><tr><td width="5">4</td><td><p>check step 1-3 for all items in the list</p>
+</td><td><p>expiration date for any of the job open position is in the future</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Priority:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr></table>
+</div>
+<p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case jJS--13: junior software&nbsp;<span style="font-size: 80%;">[Version : 1]</span></th></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>I expect to see a Test Case that validate everything listed in our application reffers to JUNIOR SOFTWARE only</p>
+
+<p>what JUNIOR SOFTWARE means?</p>
+
+<p>&nbsp; * students</p>
+
+<p>&nbsp; * junior level</p>
+
+<p>&nbsp;* star carrer as software tester</p>
+
+<p>&nbsp;* internship</p>
+
+<p>&nbsp;* entry level</p>
+
+<p>&nbsp;</p>
+
+<p>Those key-words needs to be in TITLE or DESCRIPTION</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Priority:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr></table>
+</div>
+<p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case jJS--14: in Romania&nbsp;<span style="font-size: 80%;">[Version : 1]</span></th></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>I expect to have a Test Case that will validate that all those open positions are displayed for Romania only</p>
+
+<p>We do not show open positions for any other countries</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Priority:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr></table>
+</div>
+<p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case jJS--15: upload CV&nbsp;<span style="font-size: 80%;">[Version : 1]</span></th></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>I expect to see a Test Case that will validate the upload for the CV</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Priority:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr></table>
+</div>
+<h1 class='doclevel'>Test Suite : Landing page</h1>
+<p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case jJS--1: Display application title on landing page.&nbsp;<span style="font-size: 80%;">[Version : 1]</span></th></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>Enter application&#39;s URL in browser.</p>
+</td><td><p>Landing page is displayed without errors, showing &quot;job seeker&quot; as main title.&nbsp;</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Priority:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr></table>
+</div>
+<p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case jJS--11: Landing page shows drop-down menu with following sections: Candidate, Company, Job Search, Admin Log&nbsp;<span style="font-size: 80%;">[Version : 1]</span></th></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>Open application&#39;s URL in browser.</p>
+</td><td><p>Landing page is loaded, showing a drop-down menu in upper-right corner.</p>
+</td></tr><tr><td width="5">2</td><td><p>Click on the drop-down menu to check available sections.</p>
+</td><td><p>Drop-down menu shows following sections: Candidate, Company, Job Search, Admin Login.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Priority:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr></table>
+</div>
+<p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case jJS--20: Landing page should show buttons to following sections: Candidate, Company, Job Search, Admin Login.&nbsp;<span style="font-size: 80%;">[Version : 1]</span></th></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>Open application&#39;s URL in browser.</p>
+</td><td><p>Landing page is open without errors.</p>
+
+<p>On landing page there should be following buttons:</p>
+
+<p>&nbsp;- Candidate;</p>
+
+<p>- Company;</p>
+
+<p>- Job Search;</p>
+
+<p>- Admin Login;</p>
+
+<p>&nbsp;</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Priority:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr></table>
+</div>
+<p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case jJS--21: List of open positions is displayed on landing page.&nbsp;<span style="font-size: 80%;">[Version : 1]</span></th></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>Open URL in browser.</p>
+</td><td><p>Landing page is opened without errors.</p>
+
+<p>On the landing page a list of open positions is displayed.</p>
+
+<p>For each open position list includes:</p>
+
+<p>- Position title;</p>
+
+<p>- Company name;</p>
+
+<p>- &quot;Apply&quot; button;</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Priority:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr></table>
+</div>
+<h1 class='doclevel'>Test Suite : Search results page</h1>
+<p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case jJS--24: Search Job page should have Advanced Search feature, accessible via Menu.&nbsp;<span style="font-size: 80%;">[Version : 1]</span></th></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>Open job seeker URL in browser.</p>
+</td><td><p>Landing page is opened without errors.</p>
+
+<p>A drop-down menu should be available.</p>
+</td></tr><tr><td width="5">2</td><td><p>From Menu on landing page,&nbsp;go to &quot;Job Search&quot; and select it.</p>
+</td><td><p>The user can&nbsp;access Menu.</p>
+
+<p>&quot;Job Search&quot; option is listed in the drop-down menu and can be selected.</p>
+
+<p>When selected, the user is redirected to Job Search page.</p>
+
+<p>On Job Search page, a list of fields for search criteria is displayed:</p>
+
+<p>- Job title;</p>
+
+<p>- Company;</p>
+
+<p>- Location;</p>
+
+<p>- Job posted date;</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Priority:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr></table>
+</div>
+<p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case jJS--25: Advanced search on Job Search page should be accessible via &quot;Search&quot; button on home page.&nbsp;<span style="font-size: 80%;">[Version : 1]</span></th></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>User opens job seeker&#39;s URL in browser.</p>
+</td><td><p>Job seeker landing page is opened in browser, without errors.</p>
+
+<p>On landing page there is a &quot;Search Job&quot; button.</p>
+</td></tr><tr><td width="5">2</td><td><p>User selects &quot;Job Search&quot; button.</p>
+</td><td><p>The user can select &quot;Job Search&quot; button.</p>
+
+<p>When selected, the user is redirected to Job Search page.</p>
+
+<p>On Job Search page, a list of fields for search criteria is displayed:</p>
+
+<p>- Job title;</p>
+
+<p>- Company;</p>
+
+<p>- Location;</p>
+
+<p>- Job posted date;</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Priority:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr></table>
+</div>
+<p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case jJS--26: An user should be able to search jobs by title.&nbsp;<span style="font-size: 80%;">[Version : 1]</span></th></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>User access Job Search page (from landing page, via Menu or Job Search button).</p>
+</td><td><p>Job Search page is loaded.</p>
+
+<p>Advanced search is visible.</p>
+
+<p>Job title field is visible as search criteria field.</p>
+</td></tr><tr><td width="5">2</td><td><p>In &quot;Job Title&quot; field, user enters desired job title.&nbsp;</p>
+
+<p>&nbsp;</p>
+</td><td><p>User is able to enter a text in &quot;Job Title&quot; field.</p>
+</td></tr><tr><td width="5">3</td><td><p>Click on &quot;Search&quot; icon.</p>
+</td><td><p>A list of jobs is listed.</p>
+
+<p>Each job should contain text entered by user either in the job title, or job description.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Priority:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr></table>
+</div>
+<p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case jJS--27: An user should be able to search jobs by Company.&nbsp;<span style="font-size: 80%;">[Version : 1]</span></th></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>User access Job Search page (from landing page, via Menu or Job Search button).</p>
+</td><td><p>Job Search page is loaded.</p>
+
+<p>Advanced search is visible.</p>
+
+<p>Company field is visible as search criteria field.</p>
+</td></tr><tr><td width="5">2</td><td><p>In &quot;Company&quot; field, user enters desired job title.&nbsp;</p>
+</td><td><p>User is able to enter a text in &quot;Company&quot; field.</p>
+</td></tr><tr><td width="5">3</td><td><p>Click on &quot;Search&quot; icon.</p>
+</td><td><p>A list of jobs is listed.</p>
+
+<p>For each job, Company field should include the text entered by user.&nbsp;</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Priority:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr></table>
+</div>
+<p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case jJS--28: User should be able to use multiple criteria for job search.&nbsp;<span style="font-size: 80%;">[Version : 1]</span></th></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>User access Job Search page (from landing page, via Menu or Job Search button).</p>
+</td><td><p>Job Search page is loaded.</p>
+
+<p>Advanced search is visible.</p>
+
+<p>Search criteria fields are available:</p>
+
+<ul>
+	<li>Job Title</li>
+	<li>Company</li>
+	<li>Location</li>
+	<li>Job Posted Date</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+</td></tr><tr><td width="5">2</td><td><p>User enters values in at least two fields.</p>
+</td><td><p>User is able to enter values in all fields, except Job Posted Date.&nbsp;</p>
+
+<p>For Job Posted Date, the user is able to select from a drop-down menu following options:</p>
+
+<ul>
+	<li>last 24h</li>
+	<li>last 7 days</li>
+	<li>last month</li>
+	<li>no date</li>
+</ul>
+</td></tr><tr><td width="5">3</td><td><p>Click on &quot;Search&quot; icon.</p>
+</td><td><p>A list of jobs is listed.</p>
+
+<p>Listed jobs should have each field that has been used as search criteria matching the values entered by user.&nbsp;</p>
+
+<p>If Job Title field has been used as search criteria, then either Job Title or Job Description fields should contain entered value.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Priority:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr></table>
+</div>
+
+</body>
+</html>
