@@ -14,6 +14,7 @@ include_once("application/config.php");
 
 <h1><?php echo $title; ?></h1>
 
+<img src="https://static.vecteezy.com/system/resources/previews/000/169/058/original/job-seeker-searching-a-job-vector.jpg"/>
 
 <ul>
   <?php
